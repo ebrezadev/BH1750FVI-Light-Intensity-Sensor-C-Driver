@@ -1,3 +1,6 @@
+/*BH1750FVI C Driver*/
+/*Reza Ebrahimi - https://github.com/ebrezadev"
+/*Version 1.0*/
 #ifndef BH1750FVI_H
 #define BH1750FVI_H
 
