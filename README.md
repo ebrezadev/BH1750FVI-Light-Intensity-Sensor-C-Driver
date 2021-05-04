@@ -10,6 +10,6 @@ This library is written based on the 'Ambient Light Sensor IC Series - Digital 1
 
 ## HOW TO USE
 
-As mentioned earlier, first you need to implement low level settings 
+As mentioned earlier, first you need to implement low level settings inside bh1750fvi_low_level.c which consists of I2C settings and a delay function. Please note, there's no register map inside BH1750FVI sensor; Any "write" to BH1750FVI I2C address is considered a command, and all "reads" are two bytes of ambient light metering in Lux with a coefficient of 1.2 (decimal). In order to 
 
   
