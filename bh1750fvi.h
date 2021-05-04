@@ -33,7 +33,7 @@
 
 #define NO_OPTICAL_WINDOW                 0X01
 
-void lightSensor_begin(uint8_t address, uint8_t mode_of_operation, uint8_t optical_window);
+void lightSensor_begin(uint8_t address, uint8_t mode_of_operation);
 void lightSensor_mode(uint8_t command);
 uint16_t lightSensor_meter();
 
