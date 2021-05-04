@@ -1,3 +1,6 @@
+/*BH1750FVI C Driver*/
+/*Reza Ebrahimi - https://github.com/ebrezadev*/
+/*Version 1.0*/
 #include "bh1750fvi.h"
 
 /*transmits one byte of command to bh1750fvi. in case of bh1750 sensor, there's no internal register map. each 'write' to i2c is a 'command'*/
