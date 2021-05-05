@@ -23,7 +23,7 @@ static void lightSensor_automaticResolutionSet(uint16_t meter_value);
 
 /*this should be called prior to lightSensor_meter(). 
  *address could be either ADDRESS1 or ADDRESS2, mode could be POWER_DOWN, CONTINUOUS_H_1_MODE... in manual or CONTINUOUS_AUTO or ONE_TIME_AUTO*/
-void lightSensor_begin(uint8_t address, uint8_t mode_of_operation, uint8_t optical_window)
+void lightSensor_begin(uint8_t address, uint8_t mode_of_operation)
 {
   bh1750_I2C_init();
   sensor_address = address;
