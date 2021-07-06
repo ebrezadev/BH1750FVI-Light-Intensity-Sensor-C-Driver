@@ -26,7 +26,7 @@ As mentioned, the selection of resolution and measuring time is manual, but an a
 
 ## HOW TO USE
 
-As mentioned earlier, first you need to implement low level settings inside bh1750fvi_low_level.c which consists of I2C settings and a delay function. In order to use, the first function is lightSensor_begin(uint8_t address, uint8_t mode_of_operation). address is ADDRESS1 or ADDRESS2, mode_of_operation is CONTINUOUS_H_1_MODE, CONTINUOUS_H_2_MODE, CONTINUOUS_L_MODE, ONE_TIME_H_1_MODE, ONE_TIME_H_2_MODE and ONE_TIME_L_MODE in manual modes and CONTINUOUS_AUTOMATIC or ONE_TIME_AUTOMATIC in automatic modes. Finally, metering 16-bits results could be read with lightSensor_meter().
+As mentioned earlier, first you need to implement low level settings inside bh1750fvi_low_level.c which consists of I2C settings and a delay function. In order to use, the first function to call is lightSensor_begin(uint8_t address, uint8_t mode_of_operation). address is ADDRESS1 or ADDRESS2, mode_of_operation is CONTINUOUS_H_1_MODE, CONTINUOUS_H_2_MODE, CONTINUOUS_L_MODE, ONE_TIME_H_1_MODE, ONE_TIME_H_2_MODE and ONE_TIME_L_MODE in manual modes and CONTINUOUS_AUTOMATIC or ONE_TIME_AUTOMATIC in automatic modes. Finally, metered 16-bits results could be read with lightSensor_meter().
 
 ## C FUNCTIONS
 
